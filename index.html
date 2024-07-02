@@ -10,9 +10,10 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./vendors/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/style.min.css" />
+
     <script src="./vendors/bootstrap.bundle.min.js"></script>
     <script src="./vendors/jquery-3.7.1.slim.min.js"></script>
+    <link rel="stylesheet" href="./css/style.min.css" />
     <title>News homepage</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -34,21 +35,16 @@
             <img src="./assets/images/logo.svg" alt=""
           /></a>
           <button
-            class="navbar-toggler border-0"
+            class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
             aria-label="Toggle navigation"
           >
-            <!-- <span class="navbar-toggler-icon"></span> -->
             <img src="./assets/images/icon-menu.svg" alt="" />
           </button>
-          <div
-            class="collapse navbar-collapse border-0"
-            id="navbarNavAltMarkup"
-          >
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="#">New</a>
@@ -60,6 +56,107 @@
         </div>
       </nav>
     </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="card">
+            <img
+              src="./assets/images/image-web-3-mobile.jpg"
+              class="card-img-top"
+              alt="main image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Bright Future of Web 3.0?</h5>
+              <p class="card-text">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+          <div class="card">
+            <header>New</header>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Hydrogen VS Electric Cars Will hydrogen-fueled cars ever catch
+                up to EVs?
+              </li>
+              <li class="list-group-item">
+                The Downsides of AI Artistry What are the possible adverse
+                effects of on-demand AI image generation?
+              </li>
+              <li class="list-group-item">
+                Is VC Funding Drying Up? Private funding by VC firms is down 50%
+                YOY. We take a look at what that means.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="./assets/images/image-gaming-growth.jpg"
+                  class="img-fluid rounded-start"
+                  alt="reviving retro PCs image"
+                />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <h5 class="card-title">01</h5>
+                  <h6 class="card-sublilte">Reviving Retro PCs</h6>
+                  <p class="card-text">
+                    What happens when old PCs are given modern upgrades?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="./assets/images/image-retro-pcs.jpg"
+                  class="img-fluid rounded-start"
+                  alt="reviving retro PCs image"
+                />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <h5 class="card-title">02</h5>
+                  <h6 class="card-sublilte">Top 10 Laptops of 2022</h6>
+                  <p class="card-text">
+                    Our best picks for various needs and budgets.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="./assets/images/image-top-laptops.jpg"
+                  class="img-fluid rounded-start"
+                  alt="reviving retro PCs image"
+                />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <h5 class="card-title">03</h5>
+                  <h6 class="card-sublilte">The Growth of Gaming</h6>
+                  <p class="card-text">
+                    How the pandemic has sparked fresh opportunities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <div class="attribution">
       Challenge by
@@ -70,38 +167,41 @@
   </body>
 </html>
 
-<!-- Home
-New
-Popular
-Trending
-Categories
-
-The Bright Future of Web 3.0?
-
-We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-But is it really fulfilling its promise?
-
-Read more
-
-New 
-
-Hydrogen VS Electric Cars
-Will hydrogen-fueled cars ever catch up to EVs?
-
-The Downsides of AI Artistry
-What are the possible adverse effects of on-demand AI image generation?
-
-Is VC Funding Drying Up?
-Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-01
-Reviving Retro PCs
-What happens when old PCs are given modern upgrades?
-
-02
-Top 10 Laptops of 2022
-Our best picks for various needs and budgets.
-
-03
-The Growth of Gaming
-How the pandemic has sparked fresh opportunities. -->
+<!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+  <img src="./assets/images/icon-menu.svg" alt="" />
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav> -->
