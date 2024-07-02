@@ -1,0 +1,26 @@
+@import "./normalize";
+@import "./variables";
+
+body {
+  background-color: red;
+}
+.btn {
+  width: 185px;
+  height: 48px;
+  letter-spacing: 4.38px;
+}
+.softRed {
+  background-color: $softRed;
+}
+.grayishBlueDark {
+  color: $grayishBlueDark;
+}
+.darkBlue {
+  color: $darkBlue;
+}
+.bg-darkBlue {
+  background-color: $darkBlue;
+}
+.softOrange {
+  color: $softOrange;
+}
