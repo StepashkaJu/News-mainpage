@@ -24,6 +24,16 @@
 .softOrange {
   color: $softOrange;
 }
+.navbar {
+  background-color: $offWhite;
+}
+.nav-link {
+  color: $darkBlue;
+  font-size: 18px;
+}
+.btn-close {
+  font-size: 32px;
+}
 .card-title {
   @include titleFontSize;
 }
@@ -63,7 +73,8 @@
   cursor: pointer;
   color: $softOrange;
 }
-.card-sublilte:hover {
+.card-sublilte:hover,
+.nav-link:hover {
   cursor: pointer;
   color: $softRed;
 }

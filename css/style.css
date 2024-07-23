@@ -271,6 +271,19 @@ input[type=checkbox], input[type=radio] {
   color: hsl(35, 77%, 62%);
 }
 
+.navbar {
+  background-color: hsl(36, 100%, 99%);
+}
+
+.nav-link {
+  color: hsl(240, 100%, 5%);
+  font-size: 18px;
+}
+
+.btn-close {
+  font-size: 32px;
+}
+
 .card-title {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -332,7 +345,8 @@ input[type=checkbox], input[type=radio] {
   color: hsl(35, 77%, 62%);
 }
 
-.card-sublilte:hover {
+.card-sublilte:hover,
+.nav-link:hover {
   cursor: pointer;
   color: hsl(5, 85%, 63%);
 }/*# sourceMappingURL=style.css.map */
