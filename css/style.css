@@ -241,10 +241,6 @@ input[type=checkbox], input[type=radio] {
   border: none;
 }
 
-body {
-  background-color: red;
-}
-
 .btn {
   width: 185px;
   height: 48px;
