@@ -319,4 +319,15 @@ input[type=checkbox], input[type=radio] {
 .img-fluid {
   width: 100px;
   height: 127px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+}
+
+.list-group-item_title:hover {
+  cursor: pointer;
+  color: hsl(35, 77%, 62%);
 }/*# sourceMappingURL=style.css.map */

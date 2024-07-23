@@ -54,3 +54,12 @@
   width: 100px;
   height: 127px;
 }
+.btn:hover {
+  cursor: pointer;
+  background-color: $darkBlue;
+  color: $offWhite;
+}
+.list-group-item_title:hover {
+  cursor: pointer;
+  color: $softOrange;
+}
