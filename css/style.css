@@ -330,4 +330,9 @@ input[type=checkbox], input[type=radio] {
 .list-group-item_title:hover {
   cursor: pointer;
   color: hsl(35, 77%, 62%);
+}
+
+.card-sublilte:hover {
+  cursor: pointer;
+  color: hsl(5, 85%, 63%);
 }/*# sourceMappingURL=style.css.map */
