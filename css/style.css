@@ -265,4 +265,11 @@ input[type=checkbox], input[type=radio] {
 
 .softOrange {
   color: hsl(35, 77%, 62%);
+}
+
+.new {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }/*# sourceMappingURL=style.css.map */
