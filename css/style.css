@@ -247,8 +247,12 @@ input[type=checkbox], input[type=radio] {
   letter-spacing: 4.38px;
 }
 
-.softRed {
+.softRedBg {
   background-color: hsl(5, 85%, 63%);
+}
+
+.softRed {
+  color: hsl(5, 85%, 63%);
 }
 
 .grayishBlueDark {
@@ -295,4 +299,24 @@ input[type=checkbox], input[type=radio] {
 
 .list-group-item_text {
   color: hsl(233, 8%, 79%);
+}
+
+.card-sublilte {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 12px;
+  color: hsl(240, 100%, 5%);
+}
+
+.card-text {
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+}
+
+.img-fluid {
+  width: 100px;
+  height: 127px;
 }/*# sourceMappingURL=style.css.map */

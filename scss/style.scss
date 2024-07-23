@@ -6,8 +6,11 @@
   height: 48px;
   letter-spacing: 4.38px;
 }
-.softRed {
+.softRedBg {
   background-color: $softRed;
+}
+.softRed {
+  color: $softRed;
 }
 .grayishBlueDark {
   color: $grayishBlueDark;
@@ -36,4 +39,18 @@
 }
 .list-group-item_text {
   color: $grayishBlue;
+}
+.card-sublilte {
+  font-size: 18px;
+  @include subtitleFontSize;
+  margin-top: 12px;
+  color: $darkBlue;
+}
+.card-text {
+  font-size: 15px;
+  color: $grayishBlueDark;
+}
+.img-fluid {
+  width: 100px;
+  height: 127px;
 }
