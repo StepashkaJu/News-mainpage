@@ -267,9 +267,32 @@ input[type=checkbox], input[type=radio] {
   color: hsl(35, 77%, 62%);
 }
 
+.card-title {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
 .new {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+}
+
+.list-group-item {
+  border: solid 0.5px hsl(236, 13%, 42%);
+}
+
+.list-group-item_title {
+  color: hsl(36, 100%, 99%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.list-group-item_text {
+  color: hsl(233, 8%, 79%);
 }/*# sourceMappingURL=style.css.map */

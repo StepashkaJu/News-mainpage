@@ -21,7 +21,19 @@
 .softOrange {
   color: $softOrange;
 }
-
+.card-title {
+  @include titleFontSize;
+}
 .new {
   @include subtitleFontSize;
+}
+.list-group-item {
+  border: solid 0.5px $grayishBlueDark;
+}
+.list-group-item_title {
+  color: $offWhite;
+  @include titleFontSize;
+}
+.list-group-item_text {
+  color: $grayishBlue;
 }
