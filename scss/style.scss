@@ -80,7 +80,12 @@ body {
   cursor: pointer;
   color: $softRed;
 }
-
+@media (max-width: 375px) {
+  .card-new {
+    max-width: 343px;
+    margin: auto;
+  }
+}
 @media (min-width: 1200px) {
   .content {
     max-width: 1110px;
