@@ -28,85 +28,98 @@
     </style>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/images/logo.svg" alt=""
-          /></a>
-          <button
-            class="navbar-toggler border-0"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-          >
-            <img src="./assets/images/icon-menu.svg" alt="" />
-          </button>
-          <div
-            class="offcanvas offcanvas-end w-75"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mt-5">
-                <li class="nav-item">
-                  <a class="nav-link pb-3" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pb-3" href="#">New</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pb-3" href="#">Popular</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pb-3" href="#">Trending</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pb-3" href="#">Categories</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="container px-3">
-        <div class="row">
-          <div class="container-fluid">
-            <div class="card border-0 mt-4">
-              <img
-                src="./assets/images/image-web-3-mobile.jpg"
-                class="card-img-top rounded-0"
-                alt="main image"
-              />
-              <div class="card-body p-0">
-                <h1 class="card-title darkBlue mb-3">
-                  The Bright Future of Web 3.0?
-                </h1>
-                <p class="card-text grayishBlueDark mb-4">
-                  We dive into the next evolution of the web that claims to put
-                  the power of the platforms back into the hands of the people.
-                  But is it really fulfilling its promise?
-                </p>
-                <a
-                  href="#"
-                  class="btn softRedBg rounded-0 fw-bold align-content-center mb-3"
-                  >READ MORE</a
-                >
+    <div class="content">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light py-4 pb-lg-5 pt-lg-4">
+          <div class="container-fluid p-0 ps-2">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/images/logo.svg" alt=""
+            /></a>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <img src="./assets/images/icon-menu.svg" alt="" />
+            </button>
+            <div
+              class="offcanvas offcanvas-end w-75"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 mt-5">
+                  <li class="nav-item">
+                    <a class="nav-link pb-3" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pb-3" href="#">New</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pb-3" href="#">Popular</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pb-3" href="#">Trending</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pb-3" href="#">Categories</a>
+                  </li>
+                </ul>
               </div>
             </div>
-            <div class="card mt-5 mb-3 px-4 border-0 bg-darkBlue">
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="container px-3">
+          <div class="row mb-lg-4">
+            <!-- <div class="container-fluid"> -->
+            <div class="card border-0 col-lg-8 pe-lg-4">
+              <picture class="news-image">
+                <source
+                  media="(max-width: 376px)"
+                  srcset="./assets/images/image-web-3-mobile.jpg"
+                />
+                <img
+                  src="./assets/images/image-web-3-desktop.jpg"
+                  class="card-img-top rounded-0"
+                  alt="main image"
+                />
+              </picture>
+              <div class="flex d-lg-flex align-items-center">
+                <h1 class="card-title lg darkBlue mb-3 col-lg-6">
+                  The Bright Future of Web 3.0?
+                </h1>
+                <div class="card-body p-0 col-lg-6">
+                  <p class="card-text grayishBlueDark mb-4">
+                    We dive into the next evolution of the web that claims to
+                    put the power of the platforms back into the hands of the
+                    people. But is it really fulfilling its promise?
+                  </p>
+                  <a
+                    href="#"
+                    class="btn softRedBg rounded-0 fw-bold align-content-center mb-3"
+                    >READ MORE</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-new mb-3 mx-auto px-4 border-0 bg-darkBlue col-lg-4"
+            >
               <h2 class="softOrange new mb-3">New</h2>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item p-0 bg-darkBlue">
@@ -137,11 +150,11 @@
                 </li>
               </ul>
             </div>
+            <!-- </div> -->
           </div>
-        </div>
-        <div class="row mb-5">
-          <div class="container-fluid mt-5">
-            <div class="card border-0">
+          <div class="row">
+            <!-- <div class="container-fluid mt-5"> -->
+            <div class="card border-0 col-lg-4">
               <div class="row g-0 mb-4">
                 <div class="col-4">
                   <img
@@ -161,7 +174,7 @@
                 </div>
               </div>
             </div>
-            <div class="card border-0">
+            <div class="card border-0 col-lg-4">
               <div class="row g-0 mb-4">
                 <div class="col-4">
                   <img
@@ -181,7 +194,7 @@
                 </div>
               </div>
             </div>
-            <div class="card border-0">
+            <div class="card border-0 col-lg-4">
               <div class="row g-0 mb-4">
                 <div class="col-4">
                   <img
@@ -201,9 +214,10 @@
                 </div>
               </div>
             </div>
+            <!-- </div> -->
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </div>
   </body>
 </html>

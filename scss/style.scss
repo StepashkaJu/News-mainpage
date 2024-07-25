@@ -1,6 +1,8 @@
 @import "./normalize";
 @import "./variables";
-
+body {
+  background-color: $offWhite;
+}
 .btn {
   width: 185px;
   height: 48px;
@@ -77,4 +79,23 @@
 .nav-link:hover {
   cursor: pointer;
   color: $softRed;
+}
+
+@media (min-width: 1200px) {
+  .content {
+    max-width: 1110px;
+    margin: auto;
+  }
+  .lg {
+    font-size: 56px;
+  }
+  .card-img-top {
+    height: 300px;
+  }
+  .card-new {
+    height: 511px;
+  }
+  .list-group-item_title {
+    margin-top: 31px;
+  }
 }
